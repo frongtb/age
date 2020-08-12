@@ -1,8 +1,8 @@
 #include<stdio.h>
-main()
+int main()
 {
 	int age;
-	scanf("%d", &age);
+	scanf_s("%d", &age);
 	printf("Your age : %d\n", age);
 	if (age <= 12 && age >= 0) {
 		printf("Kid");
